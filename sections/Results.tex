@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 0 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Noise Distributions at \SI{\sim10}{\mega\hertz\per\centi\meter^2}}
+ 
+	\begin{figure}\vspace*{-15pt}
+		\centering
+		\subfigp{PD0}{.5}{scCVD with \SI{6}{\deci\bel} attenuation}
+		\subfigp{PD1}{.5}{pCVD}
+	\end{figure}\vspace*{-10pt}
+
+	\begin{itemize} \itemfill
+		\item noise distribution agrees well with Gaussian even at high rates
+		\item extract noise by taking the sigma of the Gaussian fit
+		\item noise similar for scCVD and pCVD diamond
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Signal Distributions at \SI{\sim10}{\mega\hertz\per\centi\meter^2}}
+ 
+	\begin{figure}\vspace*{-15pt}
+		\centering
+		\subfigp{SD0}{.5}{scCVD with \SI{6}{\deci\bel} attenuation}
+		\subfigp{SD1}{.5}{pCVD}
+	\end{figure}\vspace*{-10pt}
+
+	\begin{itemize} \itemfill
+		\item signal gets corrected by the mean of the noise (baseline offset)
+		\item pCVD signal smaller and smeared by different regions in the diamond
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Signal Maps}
+ 
+	\begin{figure}\vspace*{-15pt}
+		\centering
+		\subfigp{SM0}{.5}{scCVD with \SI{6}{\deci\bel} attenuation}
+		\subfigp{SM1}{.5}{pCVD}
+	\end{figure}
+	
+	\begin{itemize} \itemfill
+		\item flat signal distribution in scCVD
+		\item signal response depending on region in the pCVD
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Currents}
+ 
+	\vspace*{-15pt}\fig{Currents.png}{.6}
+	
+	\begin{itemize} \itemfill
+		\item typical rate scans for \SI{\sim30}{\hour} with rates up to \SI{\sim20}{\mega\hertz\per\centi\meter^2}
+		\item beam induced current clearly visible
+		\item low leakage currents (\SI{<30}{\nano\ampere}) at a bias voltage of \SI{-1000}{\volt} (\SI{2}{\volt\per\micro m})
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Rate Studies}
+
+	
+	\vspace*{-15pt}
+	\figp{B2Oct15}{.65} 
+	
+	\begin{itemize}
+		\item systematically checking several up and down scans
+		\item also random scans to rule out systematic effects 
+	\end{itemize}
+	
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Rate Studies in Non-Irradiated scCVD}
+
+	
+	\vspace*{-15pt}
+	\figp{S129Scans}{.65} 
+	
+	\begin{itemize}
+		\item scCVD as reference in all beam tests
+		\item all scans scaled to 1 and shifted for display
+		\item scCVD diamond shows now rate dependence within the measurement precision
+	\end{itemize}
+	
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 6 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Rate Studies in Irradiated pCVD}
+
+	\vspace*{-15pt}
+	\figp{B2Scans}{.65}
+	
+	\begin{itemize}
+		\itemfill
+		\item all scans scaled to 1 and shifted for display
+		\item pulse height very stable after irradiation
+		\item noise stays the same of: $\upsigma \approx$ \SI{4.9}{au}
+% 		\item signal degradation due to radiation damage (no absolute calibration)
+	\end{itemize}
+
+\end{frame}
